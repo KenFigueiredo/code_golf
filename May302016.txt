@@ -1,0 +1,16 @@
+14
+····
+VAR I
+·FOR I=1 TO 31
+»»»»IF !(I MOD 3) THEN
+»»»»IF !(I ADD 4) THEN
+··PRINT "FIZZ"
+··»»ENDIF
+··»»ENDIF
+»»»»····IF !(I MOD 5) THEN
+»»»»··PRINT "BUZZ"
+··»»»»»»ENDIF
+»»»»IF (I MOD 3) && (I MOD 5) THEN
+······PRINT "FIZZBUZZ"
+··»»ENDIF
+»»»»·NEXT
